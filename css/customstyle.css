@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'cubanoregular';
+    src: url('../fonts/cubano-regular-webfont.eot');
+    src: url('../fonts/cubano-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cubano-regular-webfont.woff2') format('woff'),
+         url('../fonts/cubano-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h3 {font-family: 'cubanoregular';}
+.header {background-image:url(../images/header-bg.png); background-repeat:no-repeat; background-size:100%;}
+.popcorn-form {float:none; margin:0 auto;}
+.popcorn-img {width:50%; float:left;}
+.form-div {float:right;width:49%;padding-top: 50px;}
+.request-form {background-color:#FFF;padding:10px 15px;box-shadow: 1px 1px 12px #d2cece;}
+.form-div h1 {color: #FFF;font-size: 37px;}
+.form-div p {color:#FFF;}
+.form-div form h3 {color: #9c0e17;
+    font-size: 21px;
+    text-align: center;}
+.form-first-div {margin-top:30px;}
+.call-me-back {margin:60px auto; 
+	text-transform:uppercase; 
+	font-weight:bold; 
+	background-color:#e02f4b; 
+	border-radius:0px; border:0px;border-bottom:3px solid #ab1931; }
+.call-me-back:hover, .call-me-back:active, .call-me-back:focus {background-color:#ab1931;border-bottom:3px solid #e02f4b;}
+
+.feature {background-color:#e02f4b; color:#fff; padding:10px;    margin-top: 50px;}
+.feature-contents, .why-cloens-contents, .catalog-contents {float:none; margin:0 auto;padding:0px;}
+.feature-contents h3 {text-align:center; color:#FFF; margin-bottom:30px;}
+ul.features-list {margin:0px; padding:0px;}
+ul.features-list li {list-style-type:none; display:inline-block; width:19%; text-align:center;}
+ul.features-list li  span, .why-cloens-contents ul li  span {    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 20px;}
+	
+.why-cloens {margin:30px auto;}
+.why-cloens	h3 {color:#2262d0; text-align:center; margin-bottom:20px;}
+.why-cloens-contents ul {margin:0px; padding:0px;}
+.why-cloens-contents ul li {list-style-type:none; display:inline-block; width:24%; text-align:center;}
+.why-cloens-contents ul li  span {    font-size: 14px;font-weight: bold;}
+
+.catalog-section {background-color:#414141; color:#FFF; height:250px;}
+.catalog-contents {padding: 20px 0px;}
+.catalog-img {width:48%; float:left;}
+.catalog-txt {width:50%; float:left;}
+.catalog-img img {width:100%;}
+.catalog-txt {margin-left:-45px;text-align:right;}
+.catalog-txt .btn-sm {    width: auto;
+    float: right;
+    margin: 30px auto 0;}
+.catalog-txt p {font-size:13px;text-align:right;}
+.trusted-contents {    text-align: center;margin: 20px auto;}
+.trusted-contents ul li {    list-style-type: none;
+    display: inline-block;
+    width: 14%;
+    margin: 0 8px;}
+.trusted-contents ul li img {width:100%;}
+
+.instagram-section {background-color:#e8e9f3; padding:30px 0 50px 0;}
+p.insta-follow {color:#FFF; background-color:#e02f4b;text-transform: uppercase;
+    padding: 5px 0;
+    display: block;
+    width: 26%;
+    margin: 0 auto 20px;}
+	
+.footer {background-color:#2262d0; padding:20px 0; color:#FFF;}
+.copy-right {float:left;}
+ul.TCP {float:left;margin:0; padding:0px;text-align:center;}
+ul.TCP li {display:inline-block; list-style-type:none;    padding: 0px 15px;border-right: 1px solid #FFF;}
+ul.TCP li:last-child {border-right:none;}
+ul.TCP li a {color:#FFF;}
+.call-us {float:right;}
+.ftr-contents {float:none;margin:0 auto;}
